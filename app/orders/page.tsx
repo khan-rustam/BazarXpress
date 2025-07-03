@@ -1,6 +1,6 @@
 "use client"
 
-import AccountLayout from "@/components/AccountLayout"
+import AdminLayout from "@/components/AdminLayout"
 import { CheckCircle, ChevronRight } from "lucide-react"
 
 export default function OrdersPage() {
@@ -56,7 +56,7 @@ export default function OrdersPage() {
   ]
 
   return (
-    <AccountLayout currentPage="orders">
+    <AdminLayout>
       <div className="bg-white rounded-lg shadow-sm border border-gray-200">
         <div className="p-6 border-b border-gray-200">
           <h1 className="text-2xl font-bold text-gray-900">My Orders</h1>
@@ -100,6 +100,6 @@ export default function OrdersPage() {
           ))}
         </div>
       </div>
-    </AccountLayout>
+    </AdminLayout>
   )
 }

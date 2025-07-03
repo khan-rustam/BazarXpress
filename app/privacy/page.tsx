@@ -1,6 +1,6 @@
 "use client"
 
-import AccountLayout from "@/components/AccountLayout"
+import AdminLayout from "@/components/AdminLayout"
 import { Trash2, ChevronDown, ChevronRight } from "lucide-react"
 import { useState } from "react"
 
@@ -8,7 +8,7 @@ export default function PrivacyPage() {
   const [showFullPolicy, setShowFullPolicy] = useState(false)
 
   return (
-    <AccountLayout currentPage="privacy">
+    <AdminLayout >
       <div className="bg-white rounded-lg shadow-sm border border-gray-200">
         <div className="p-6 border-b border-gray-200">
           <h1 className="text-2xl font-bold text-gray-900">Account privacy and policy</h1>
@@ -57,6 +57,6 @@ export default function PrivacyPage() {
           </div>
         </div>
       </div>
-    </AccountLayout>
+    </AdminLayout>
   )
 }

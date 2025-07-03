@@ -1,6 +1,6 @@
 "use client"
 
-import AccountLayout from "@/components/AccountLayout"
+import AdminLayout from "@/components/AdminLayout"
 import { Gift, Plus, CreditCard } from "lucide-react"
 
 export default function GiftCardsPage() {
@@ -24,7 +24,7 @@ export default function GiftCardsPage() {
   ]
 
   return (
-    <AccountLayout currentPage="gift-cards">
+    <AdminLayout>
       <div className="space-y-6">
         {/* Header */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
@@ -104,6 +104,6 @@ export default function GiftCardsPage() {
           </div>
         </div>
       </div>
-    </AccountLayout>
+    </AdminLayout>
   )
 }
