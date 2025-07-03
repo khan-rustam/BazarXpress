@@ -1,6 +1,6 @@
 "use client"
 
-import AccountLayout from "@/components/account-layout"
+import AccountLayout from "@/components/AccountLayout"
 import { Gift, Plus, CreditCard } from "lucide-react"
 
 export default function GiftCardsPage() {

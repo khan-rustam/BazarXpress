@@ -1,6 +1,6 @@
 "use client"
 
-import AccountLayout from "@/components/account-layout"
+import AccountLayout from "@/components/AccountLayout"
 import { Trash2, ChevronDown, ChevronRight } from "lucide-react"
 import { useState } from "react"
 
